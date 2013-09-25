@@ -15,7 +15,7 @@ public class TwoFragme extends Fragment {
 		super.onCreateView(inflater, container, savedInstanceState);
 		View view = inflater.inflate(R.layout.one, null);
 		TextView textView = (TextView) view.findViewById(R.id.textView);
-		textView.setText("this is two!!");
+		textView.setText("this is two!! Do you have something to say?");
 		view.setBackgroundColor(getResources().getColor(R.color.green));
 		return view;
 	}
