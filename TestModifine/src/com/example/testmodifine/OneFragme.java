@@ -15,7 +15,7 @@ public class OneFragme extends Fragment {
 		super.onCreateView(inflater, container, savedInstanceState);
 		View view = inflater.inflate(R.layout.one, null);
 		TextView textView = (TextView) view.findViewById(R.id.textView);
-		textView.setText("this is one!!");
+		textView.setText("this is one!! give me your love!");
 		view.setBackgroundColor(getResources().getColor(R.color.white));
 		return view;
 	}
